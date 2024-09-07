@@ -1,0 +1,75 @@
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+--Brightblue: hsl(245, 75%, 52%);
+--Verypaleblue: hsl(225, 100%, 98%);
+--Desaturatedblue: hsl(224, 23%, 55%);
+--Darkblue: hsl(223, 47%, 23%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Paleblue);
+}
+body .card{
+    margin: 100px auto;
+    background-color: var(--Verypaleblue);
+    border-radius: 20px;
+    width: 450px;
+}
+body .card .logo img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+}
+body header{
+    text-align: center;
+    padding: 20px 30px;
+}
+body header .text :first-child{
+    color: var(--Darkblue);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+body header .text :nth-child(2){
+    color: var(--Desaturatedblue);
+    font-size: 25px; 
+    margin-bottom: 30px;
+}
+body header .Plan{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    padding:  0px 10px;
+}
+body header .Plan-text :first-child{
+color: var(--Darkblue);
+font-size: 25px;
+font-weight: bold;
+}
+body header .Plan-text :nth-child(2) {
+color: var(--Desaturatedblue);
+font-size: 20px;
+}
+body header .Plan-link a{
+    color: var(--Brightblue);
+    font-size: 20px;
+    font-weight: bold;
+}
+body header .Payment-link a{
+    display: block;
+    text-decoration: none;
+    color: var(--Verypaleblue);
+    margin: 25px 0px;
+    background-color: var(--Brightblue);
+padding: 15px;
+border-radius: 10px;
+}
+body header .order-text{
+    color: var(--Desaturatedblue);
+    font-weight: bold;
+}
+ 
